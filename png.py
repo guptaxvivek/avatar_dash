@@ -3,11 +3,11 @@ import streamlit as st
 st.title("Tiktok Stats")
 
 data_dict = {
-    "Likes": 1613,
-    "Saves": 1613,
-    "Comments": 1613,
+    "Likes": 3265,
+    "Saves": 3265,
+    "Comments": 2850,
     "Posts": 31,
-    "Follows": 2058
+    "Follows": 2965
 }
 
 cols = st.columns(len(data_dict))
