@@ -6,10 +6,11 @@ st.title("Avatar Dashboard")
 
 data_dict = {
     'Instagram': {
-        'Likes': 135,
-        'Comments': 258,
+        'Likes': 307,
+        'Comments': 430,
         'Follows': 72,
-        'Posts': 5,
+        'Posts': 10,
+        'Saves': 305,
     },
     'Facebook': {
         'Likes': 294,
