@@ -20,19 +20,19 @@ for data in data_dict:
 
 st.title("G - Stats")
 g_dict = {
-    "Likes": 1652,
-    "Saves": 1652,
-    "Comments": 1237,
-    "Posts": 0,
+    "Likes": 562,
+    "Saves": 562,
+    "Comments": 238,
+    "Posts": 78,
     "Follows": 0
 }
 
 cols = st.columns(len(g_dict))
 
 i = 0
-for data in data_dict:
+for data in g_dict:
     with cols[i]:
-        st.metric(data, data_dict[data])
+        st.metric(data, g_dict[data])
     i += 1
 
 st.title("P - Stats")
@@ -49,5 +49,5 @@ cols = st.columns(len(p_dict))
 i = 0
 for data in p_dict:
     with cols[i]:
-        st.metric(data, data_dict[data])
+        st.metric(data, p_dict[data])
     i += 1
