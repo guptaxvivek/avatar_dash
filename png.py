@@ -20,9 +20,9 @@ for data in data_dict:
 
 st.title("G - Stats")
 g_dict = {
-    "Likes": 562,
-    "Saves": 562,
-    "Comments": 238,
+    "Likes": 4576,
+    "Saves": 4576,
+    "Comments": 708,
     "Posts": 78,
     "Follows": 0
 }
@@ -37,10 +37,10 @@ for data in g_dict:
 
 st.title("P - Stats")
 p_dict = {
-    "Likes": 0,
-    "Saves": 0,
-    "Comments": 0,
-    "Posts": 0,
+    "Likes": 43,
+    "Saves": 43,
+    "Comments": 43,
+    "Posts": 10,
     "Follows": 0
 }
 
