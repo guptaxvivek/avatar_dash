@@ -34,20 +34,3 @@ for data in g_dict:
     with cols[i]:
         st.metric(data, g_dict[data])
     i += 1
-
-st.title("P - Stats")
-p_dict = {
-    "Likes": 43,
-    "Saves": 43,
-    "Comments": 43,
-    "Posts": 10,
-    "Follows": 0
-}
-
-cols = st.columns(len(p_dict))
-
-i = 0
-for data in p_dict:
-    with cols[i]:
-        st.metric(data, p_dict[data])
-    i += 1
