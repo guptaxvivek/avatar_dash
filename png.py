@@ -20,10 +20,10 @@ for data in data_dict:
 
 st.title("G - Stats")
 g_dict = {
-    "Likes": 4576,
-    "Saves": 4576,
-    "Comments": 708,
-    "Posts": 78,
+    "Likes": 8459,
+    "Saves": 8459,
+    "Comments": 1108,
+    "Posts": 328,
     "Follows": 0
 }
 
